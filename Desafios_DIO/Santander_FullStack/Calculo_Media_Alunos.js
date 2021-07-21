@@ -24,22 +24,16 @@ public class Desafio
 		{
 			System.out.printf("Aluno aprovado.\n");	
 		}
-	//	else 
-	//	if ( Media < 5.0 )
-	//	{
-	//		System.out.printf("Aluno reprovado.\n");	
-	//	}
 		else 
 		if ( Media >= 4.9  && Media <= 6.9 )
 		{ 
-		  	EmExame = sc.nextFloat();
+		  EmExame = sc.nextFloat();
 			System.out.printf("Aluno em exame.\n");
 			System.out.printf("Nota do exame: %.1f\n", EmExame  );
-		 	EmExameFinal = (Media + EmExame) / 2 ;
-			 
+		  EmExameFinal = (Media + EmExame) / 2 ;
 			if( EmExameFinal >= 5.0 )
 			  {
-				System.out.printf("Aluno aprovado.\n");
+				  System.out.println("Aluno aprovado.\n");
 		//		System.out.printf("Media final: %.1f\n", EmExameFinal );
 			  }
 			else
@@ -48,7 +42,6 @@ public class Desafio
 		//		System.out.printf("Media final: %.1f\n", EmExameFinal );
 			  }
 		//	System.out.printf("Aluno reprovado.\n");	
-
 		  System.out.printf("Media final: %.1f\n", EmExameFinal );
 		} 
 		sc.close();
