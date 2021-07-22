@@ -14,10 +14,13 @@ public class Desafio
 			grupo = Integer.parseInt(br.readLine());
 			String str = br.readLine();
 			String tarta[] = str.split(" ",10);
+			int ninja=0;
           for ( i=0; i<tarta.length; i++)
           { 
-            int ninja = Integer.parseInt(tarta[i]); 
-
+            if ( Integer.parseInt(tarta[i]) > ninja ) 
+              {
+                 ninja = Integer.parseInt(tarta[i]);
+              }
 		        if ( ninja < 10 )
 	      	    { 
 	      	    donnie = 1; 
