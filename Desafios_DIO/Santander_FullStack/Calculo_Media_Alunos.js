@@ -24,9 +24,10 @@ public class Desafio
 		{
 			System.out.println("Aluno aprovado.");	
 		}
-		if (media < 5.0) {
+		if (media < 5.0) 
+		{
       		System.out.println("Aluno reprovado.");
-    }
+    	}
 		if ( Media >= 5.0  && Media <= 6.9 )
 		{ 
 		  	EmExame = sc.nextDouble();
