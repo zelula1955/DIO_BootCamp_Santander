@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>NETFLIX(BootCamp)</title>
+</head>
+<script>
+var titulo=""
+function netflixload(){
+	window.open("https://www.netflix.com/br/");
+	}
+
+
+    function netflixInfo(){
+	 window.open("https://help.netflix.com/legal/notices");
+	}
+
+    function netflixMovie(titulo){
+	 window.open("https://www.netflix.com/br/title/" + titulo);
+	}
+
+</script>
+<body>
+    <header>
+        <div class="container" >
+            <h2 class="logo" >NETFLIX </h2>
+            <nav>
+                <a href="#"><b>Inicio</b></a>
+                <a href="#"><b>Séries</b></a>
+                <a href="#"><b>Filmes</b></a>
+                <a href="#"><b>Documentários</b></a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">Filmes, séries e muito mais. Sem limites.</h3>
+                <p class="descricao">A Netflix é um serviço de transmissão online que oferece uma ampla variedade de séries, filmes e documentários premiados em milhares de aparelhos conectados à internet.</p>
+                <div class="botoes">
+                    <button role="button" class="botao" onclick=netflixload()>
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao" onclick=netflixInfo()>
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-filme" src="img/img_Netflix_A.jpg" onclick=netflixMovie(80192098) onmouseover="this.src =('img/img_Netflix_casa_papel.jpg')" title="Click e Assista!" onmouseout="this.src =('img/img_Netflix_A.jpg')" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/img_Netflix_B.jpg" onmouseover="this.src =('img/img_Netflix_P_Blinders.jpg')" onmouseout="this.src =('img/img_Netflix_B.jpg')" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/img_Netflix_C.jpg" onclick=netflixMovie(80994082) onmouseover="this.src =('img/img_Netflix_Lupin.jpg')" title="Click e Assista!" onmouseout="this.src =('img/img_Netflix_C.jpg')" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/img_Netflix_D.jpg" onmouseover="this.src =('img/img_Netflix_Elite.jpg')" onmouseout="this.src =('img/img_Netflix_D.jpg')" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/img_Netflix_E.jpg" onclick=netflixMovie(81159258) onmouseover="this.src =('img/img_Netflix_P_Amor.jpg')" title="Click e Assista!" onmouseout="this.src =('img/img_Netflix_E.jpg')" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/img_Netflix_F.jpg" onmouseover="this.src =('img/img_Netflix_Atypical.jpg')" onmouseout="this.src =('img/img_Netflix_F.jpg')" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/img_Netflix_G.jpg" onclick=netflixMovie(80057281) onmouseover="this.src =('img/img_Netflix_E_Thinks.jpg')" title="Click e Assista!" onmouseout="this.src =('img/img_Netflix_G.jpg')" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/img_Netflix_H.jpg" onmouseover="this.src =('img/img_Netflix_J_World.jpg')" onmouseout="this.src =('img/img_Netflix_H.jpg')" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/img_Netflix_I.jpg" onclick=netflixMovie(81435227) onmouseover="this.src =('img/img_Netflix_Paternidade.jpg')" title="Click e Assista!" onmouseout="this.src =('img/img_Netflix_I.jpg')" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/img_Netflix_J.jpg" onmouseover="this.src =('img/img_Netflix_L_Kinedom.jpg')" onmouseout="this.src =('img/img_Netflix_J.jpg')" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/img_Netflix_L.jpg"  onclick=netflixMovie(80178687) onmouseover="this.src =('img/img_Netflix_R_Negro.jpg')" title="Click e Assista!" onmouseout="this.src =('img/img_Netflix_L.jpg')" alt="" srcset="">
+                </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+ 
+
+ 
+</body>
+</html>
