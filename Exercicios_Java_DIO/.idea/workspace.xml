@@ -30,7 +30,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ExemplosLinkedList">
+    <configuration name="ExemplosLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExerciciosJava.ExemplosLinkedList" />
+      <module name="ExemplosList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExerciciosJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExemplosList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExerciciosJava.ExemplosList" />
       <module name="ExemplosList" />
@@ -46,6 +59,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExemplosLinkedList" />
         <item itemvalue="Application.ExemplosList" />
       </list>
     </recent_temporary>
