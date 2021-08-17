@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04a06b70-f8cf-4680-95f4-14c7501ecc10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/personapi/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto-live-pontoAcesso/src/main/java/com/dio/live/controller/JornadaTrabalhoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto-live-pontoAcesso/src/main/java/com/dio/live/controller/JornadaTrabalhoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto-live-pontoAcesso/src/main/java/com/dio/live/service/JornadaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto-live-pontoAcesso/src/main/java/com/dio/live/service/JornadaService.java" afterDir="false" />
-    </list>
+    <list default="true" id="04a06b70-f8cf-4680-95f4-14c7501ecc10" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
