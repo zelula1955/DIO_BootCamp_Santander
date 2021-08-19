@@ -21,10 +21,6 @@ public class PersonService {
 
     private final PersonMapper personMapper = PersonMapper.INSTANCE;
 
-//    @Autowired
-//public PersonService(PersonRepository personRepository) {
-//        this.personRepository = personRepository;
-//    }
     public MessageResponseDTO createPerson(PersonDTO personDTO) {
         Person personToSave = personMapper.toModel(personDTO);
 

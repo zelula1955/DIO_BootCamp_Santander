@@ -1,5 +1,5 @@
 # Digital Innovation: Expert class - Desenvolvendo um sistema de gerenciamento de pessoas em API REST com Spring Boot.
-## _Nesta live coding vamos desenvolver um pequeno sistema para o gerenciamento de pessoas de uma empresa através de uma API REST, criada com o Spring Boot.
+## Nesta live coding vamos desenvolver um pequeno sistema para o gerenciamento de pessoas de uma empresa através de uma API REST, criada com o Spring Boot.
 
 ## Durante a sessão, serão desenvolvidos e abordados os seguintes tópicos:
 
@@ -37,3 +37,6 @@ Site oficial do GitHub
 Documentação oficial do Lombok
 Documentação oficial do Map Struct
 Referência para o padrão arquitetural REST
+
+  <img src="C:\Users\José Luiz\Pictures\H2_db.png" style="zoom:50%;" /> 
+
