@@ -36,4 +36,4 @@ Site oficial do GIT
 Site oficial do GitHub
 Documentação oficial do Lombok
 Documentação oficial do Map Struct
-Referência para o padrão arquitetural REST
+Referência para o padrão arquitetural REST.
