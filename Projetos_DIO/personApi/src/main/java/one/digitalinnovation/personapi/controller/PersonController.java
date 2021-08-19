@@ -1,6 +1,5 @@
 package one.digitalinnovation.personapi.controller;
 
-
 import one.digitalinnovation.personapi.exception.PersonNotFoundException;
 import one.digitalinnovation.personapi.service.PersonService;
 import one.digitalinnovation.personapi.dto.request.PersonDTO;
