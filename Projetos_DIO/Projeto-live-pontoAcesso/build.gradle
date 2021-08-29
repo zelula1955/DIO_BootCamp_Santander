@@ -33,7 +33,7 @@ dependencies {
 
 	implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml', version: '2.9.7'
 
-	runtimeOnly 'mysql:mysql-connector-java'
+   runtimeOnly 'mysql:mysql-connector-java'
 
 	compileOnly 'org.projectlombok:lombok:1.18.10'
 	annotationProcessor 'org.projectlombok:lombok'
