@@ -34,3 +34,4 @@ dependencyManagement {
 test {
 	useJUnitPlatform()
 }
+

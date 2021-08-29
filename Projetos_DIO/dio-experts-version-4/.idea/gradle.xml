@@ -5,10 +5,37 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/config-server" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/config-server" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/gateway" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/gateway" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/product-catalog" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/product-catalog" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/service-discovery" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/service-discovery" />
           </set>
         </option>
       </GradleProjectSettings>
