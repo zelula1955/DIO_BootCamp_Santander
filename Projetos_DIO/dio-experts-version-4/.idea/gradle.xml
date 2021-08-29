@@ -14,6 +14,15 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/shopping-cart" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/shopping-cart" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/../../../workspace/dio-experts-master/product-catalog" />
         <option name="modules">
           <set>
