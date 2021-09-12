@@ -4,7 +4,6 @@ import { CourseService } from './course.service';
 
 
 @Component({
-  selector: 'app-course-list',
   templateUrl: './course-list.component.html'
 })
 export class CourseListComponent implements OnInit {
@@ -15,6 +14,7 @@ export class CourseListComponent implements OnInit {
     constructor(private courseService: CourseService) { }
   ngOnInit(): void {
         this._courses = this.courseService.retrieveAll();
+        this.filteredCourses = this._courses;
       }
   set filter(value: string) {
         this._filterBy = value;
