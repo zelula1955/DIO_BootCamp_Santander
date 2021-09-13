@@ -9,7 +9,7 @@ import { StarComponent } from './courses/star/star.component';
 import { ReplacePipe } from './pipe/repalce.pipe';
 import { NavBarComponent } from './courses/nav-bar/nav-bar.component';
 import { Error404Component } from './error-404/error-404.component';
-import { CourseInfoComponent } from './courses/course-info/course-info.component';
+import { CourseInfoComponent } from './course-info.component';
 
 @NgModule({
   declarations: [
@@ -18,8 +18,8 @@ import { CourseInfoComponent } from './courses/course-info/course-info.component
     StarComponent,
     ReplacePipe,
     NavBarComponent,
-    Error404Component,
-    CourseInfoComponent
+    Error404Component
+
   ],
   imports: [
     BrowserModule,
