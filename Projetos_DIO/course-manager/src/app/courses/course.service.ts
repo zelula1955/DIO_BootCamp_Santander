@@ -8,9 +8,8 @@ import { Observable } from 'rxjs';
     providedIn: 'root'
 })
 export class CourseService {
-  subscribe: any;
-  constructor(private httpClient: HttpClient) { }
     private coursesUrl: string = 'http://localhost:3100/api/courses';
+    constructor(private httpClient: HttpClient) { }
 
     retrieveAll(): Observable<Course[]> {
         return this.httpClient.get<Course[]>(this.coursesUrl);

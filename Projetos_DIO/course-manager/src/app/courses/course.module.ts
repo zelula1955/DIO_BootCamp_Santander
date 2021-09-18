@@ -28,5 +28,4 @@ import { AppPipeModule } from '../shared/pipe/app-pipe.module';
     ]
 })
 export class CourseModule {
-
 }
