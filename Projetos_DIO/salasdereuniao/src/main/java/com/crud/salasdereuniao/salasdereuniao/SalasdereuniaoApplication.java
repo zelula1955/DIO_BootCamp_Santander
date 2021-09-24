@@ -1,13 +1,13 @@
-package com.digita.crud.salasdereuniao.crudsalasdereuniao;
+package com.crud.salasdereuniao.salasdereuniao;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class crudsalasdereuniaoApplication {
+public class SalasdereuniaoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(crudsalasdereuniaoApplication.class, args);
+		SpringApplication.run(SalasdereuniaoApplication.class, args);
 	}
 
 }

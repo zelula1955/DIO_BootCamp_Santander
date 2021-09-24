@@ -1,4 +1,4 @@
-package com.digita.crud.salasdereuniao.crudsalasdereuniao;
+package com.crud.salasdereuniao.salasdereuniao;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
